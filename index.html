@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>humani</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="i/favicon-auta.png">
+		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
+		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+		<link href="css/styles.min.css" rel="stylesheet" />
+		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+		<!-- Open graph settings (social networks sharing settings) -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="auta - plano de saúde empresarial">
+		<meta property="og:description" content="Modelo de operadora moderna, com larga utilização de tecnologia.">
+		<meta property="og:url" content="auta.com.br">
+		<meta property="og:image" content="http://auta.com.br/i/og-image-auta.jpg">
+		<meta name='twitter:card' content='summary_large_image'>
+		<meta name="twitter:title" content="auta - plano de saúde empresarial">
+		<meta name="twitter:description" content="Modelo de operadora moderna, com larga utilização de tecnologia.">
+		<meta property="twitter:domain" content="auta.com.br">
+		<meta property="twitter:url" content="auta.com.br">
+		<meta name="twitter:image" content="http://auta.com.br/i/og-image-auta.jpg">
+		<!-- Open graph settings end -->
+	</head> 
+	<body>
+
+<!-- Navigation 1 -->
+	<nav class="bg-bg-3 sticky-top py-4 py-lg-7">
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3" data-aos="fade-up" data-aos-delay="0">
+						<a class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-o9uph7lr">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="col-6 text-center" data-aos="fade-up" data-aos-delay="250">
+						<a href="#">
+							<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid" data-aos="fade-up" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-3" data-aos="fade-up" data-aos-delay="500">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start bg-bg-3" id="custom-id-o9uph7lr" aria-hidden="true">
+			<div class="offcanvas-header">
+				<a href="#">
+					<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid">
+				</a>
+				<a class="btn btn-sm btn-width-equal-height btn-bg-3" data-bs-dismiss="offcanvas">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-2">
+						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="offcanvas-body">
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+			Home									
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+			Features									
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+			Blog									
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
+			Prices									
+					</a>
+				</div>
+				<div>
+					<a href="#" class="fw-bold py-2 d-inline-block">
+Sign In			
+					</a>
+				</div>
+				<a href="#" class="btn btn-sm btn-action-1 rounded-2 mt-4">
+Sign Up			
+				</a>
+			</div>
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-2">
+						<a href="#">
+							<img src="i/logo-auta-header.png" srcset="i/logo-auta-header@2x.png 2x" alt="" class="img-fluid" data-aos="fade-up" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="text-center d-flex justify-content-center col-6">
+						<a href="#capa" class="fw-bold mx-4 text-dark-1" data-aos="fade-up" data-aos-delay="150">
+									Início
+						</a>
+						<a href="#modelo" class="fw-bold mx-4 text-dark-1" data-aos="fade-up" data-aos-delay="250">
+									Modelo
+						</a>
+						<a href="#beneficios" class="fw-bold mx-4 text-dark-1" data-aos="fade-up" data-aos-delay="400">
+									Benefícios
+						</a>
+					</div>
+					<div class="d-flex align-items-center justify-content-end col-lg-3">
+						<a href="#" class="fw-bold fs-4 me-8 d-xxl-none" data-aos="fade-up" data-aos-delay="650">
+Sign In					
+						</a>
+						<a href="#" class="btn btn-sm btn-action-1 rounded-2" data-aos="fade-up" data-aos-delay="750">
+									Contato
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Header 1 -->
+		<header class="py-20 bg-bg-3">
+			<div class="container">
+				<div class="row align-items-center flex-md-row-reverse">
+					<div class="col-md-6">
+						<img src="i/hero.svg" alt="" class="w-100" data-aos="fade-up" data-aos-delay="0">			
+					</div>
+					<div class="col-md-6 mt-8 mt-md-0">
+						<h1 class="display-3 mb-6" data-aos="fade-up" data-aos-delay="150">
+							Plano de Saúde Corporativo
+						</h1>
+						<p class="mb-8 fs-1" data-aos="fade-up" data-aos-delay="250">
+							Unindo Cuidado Humanizado e Tecnologia para um Futuro mais Saudável e equilibrado na saúde.
+Entregamos soluções customizadas de saúde baseada em valor para um grupo seleto de grandes empresas.
+						</p>
+						<a href="#" class="btn btn-action-1 btn-lg" data-aos="fade-up" data-aos-delay="400">
+									Consulte os preços
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Content 7 -->
+			<section class="py-10 py-lg-20 bg-bg-2">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9">
+							<p class="fs-2 text-center mb-0">
+								Design de Rede customizado, Coordenação de Cuidado humanizada, Tecnologia e Data Science.  Com esses três pilares garantimos mais saúde para o colaborador, maior percepção de valor para os gestores e controle preciso de custos operacionais.  Chamamos isso de “Plano de Saúde as a Service”.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Feature 17 -->
+				<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 text-center">
+								<h2 class="mb-6 display-5" data-aos="fade-up" data-aos-delay="0">
+											O modelo de saúde empresarial do futuro 
+								</h2>
+								<p class="mb-15 fs-2" data-aos="fade-up" data-aos-delay="150">
+											Com todos os benefícios e cuidados que um paciente merece, quando mais precisa.
+								</p>
+							</div>
+						</div>
+						<div class="mb-15 mb-md-8 row align-items-center flex-md-row-reverse justify-content-center">
+							<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+								<img src="i/customizado.svg" alt="" class="img-fluid w-100" data-aos="fade-up" data-aos-delay="250">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-6 col-xl-5 col-xxl-4">
+								<h4 class="mb-6 remove-br" data-aos="fade-up" data-aos-delay="400">
+									Plano Customizado
+								</h4>
+								<p class="mb-0 fs-4" data-aos="fade-up" data-aos-delay="500">
+									Criado 100% em conjunto com a empresa. Fique tranquilo.  A empresa dá os inputs e o trabalhão todo é por nossa conta. 
+								</p>
+								<ul>
+									<li>
+												Pronto Atendimento Virtual
+									</li>
+									<li>
+												Atendimento 24/7
+									</li>
+									<li>
+												Adulto e Infantil
+									</li>
+									<li>
+												Integração Completa dos dados
+									</li>
+								</ul>
+								<p>
+								</p>
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+								<img src="i/rede-1689815268.svg" alt="" class="img-fluid w-100" data-aos="fade-up" data-aos-delay="250">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-6 col-xl-5 col-xxl-4">
+								<h4 class="mb-6 remove-br" data-aos="fade-up" data-aos-delay="400">
+									Design de Rede
+								</h4>
+								<p class="mb-0 fs-4" data-aos="fade-up" data-aos-delay="500">
+									Verticalizamos a saúde onde for necessário. Montamos uma rede de prestadores em acordos VBHC de maneira interligada com uso de tecnologia e prontuário único. 
+								</p>
+								<ul>
+									<li>
+												Clínicas Próprias
+									</li>
+									<li>
+												Modelo VBHC
+									</li>
+									<li>
+												Distribuição Geográfica
+									</li>
+									<li>
+												Acessibilidade
+									</li>
+								</ul>
+								<p>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Feature 17 -->
+					<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3">
+						<div class="container">
+							<div class="mb-15 mb-md-8 row align-items-center flex-md-row-reverse justify-content-center">
+								<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+									<img src="i/coordenacao.svg" alt="" class="img-fluid w-100" data-aos="fade-up" data-aos-delay="250">
+								</div>
+								<div class="col-md-1">
+								</div>
+								<div class="col-md-6 col-xl-5 col-xxl-4">
+									<h4 class="mb-6 remove-br" data-aos="fade-up" data-aos-delay="400">
+										Coordenação de Cuidado Própria
+									</h4>
+									<p class="mb-0 fs-4" data-aos="fade-up" data-aos-delay="500">
+										A jornadas de saúde não precisa ser uma jornada nas estrelas. Com nosso time seu colaborador recebe o tratamento adequado no momento certo.  
+									</p>
+									<ul>
+										<li>
+													Cuidado Humanizado
+										</li>
+										<li>
+													Fast Track oncológico
+										</li>
+										<li>
+													Acompanhamento de Crônicos
+										</li>
+										<li>
+													Linhas Customizadas por Perfil
+										</li>
+										<li>
+													Tecnologia Preditiva de Doenças
+										</li>
+									</ul>
+									<p>
+									</p>
+								</div>
+							</div>
+							<div class="row align-items-center justify-content-center">
+								<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+									<img src="i/trilhas.svg" alt="" class="img-fluid w-100" data-aos="fade-up" data-aos-delay="250">
+								</div>
+								<div class="col-md-1">
+								</div>
+								<div class="col-md-6 col-xl-5 col-xxl-4">
+									<h4 class="mb-6 remove-br" data-aos="fade-up" data-aos-delay="400">
+										Trilhas de Prevenção e Monitoramento Preditivo
+									</h4>
+									<p class="mb-0 fs-4" data-aos="fade-up" data-aos-delay="500">
+										Nossa metodologia exclusiva identifica os problemas de saúde antes que os custos fiquem mais graves e mais caros. Fazemos prevenção a doenças de verdade, e de quebra ajudamos com mais um bullet point positivo no seu realtórios de ESG.  
+									</p>
+									<ul>
+										<li>
+													Acompanhamento em tempo real dos prestadores por tecnologia
+										</li>
+										<li>
+													Hospital Referência time próprio
+										</li>
+										<li>
+													Parceiros para eletivas em Bundle
+										</li>
+										<li>
+													Rede se adequa ao Perfil
+										</li>
+									</ul>
+									<p>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- Application 3 -->
+						<section class="py-10 py-lg-20 text-center bg-">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-xl-8 col-xxl-7 col-lg-9 col-md-10">
+										<h2 class="display-5 mb-6 text-light-1" data-aos="fade-up" data-aos-delay="0">
+											Tecnologia voltada para uma gestão fácil, intuitiva e transparente dos dados de saúde.
+										</h2>
+									</div>
+									<img src="i/apps.png" srcset="i/apps@2x.png 2x" alt="nossos aplicativos de gestão e para pacientes" class="img-fluid mt-15" data-aos="fade-up" data-aos-delay="250" placeholder="">
+								</div>
+							</div>
+						</section>
+						<!-- Contact 4 -->
+							<section class="py-10 py-lg-20 bg-bg-3">
+								<div class="container">
+									<div class="row justify-content-between">
+										<div class="col-sm-10 col-md-6 col-lg-5 mb-12 mb-md-0">
+											<h2 class="display-5 mb-6" data-aos="fade-up" data-aos-delay="0">
+															Entre em contato conosco
+											</h2>
+											<p class="fs-1 mb-8" data-aos="fade-up" data-aos-delay="150">
+															Descubra se a auta é pra você e quais os preços aplicados.
+											</p>
+											<div class="position-relative mb-5" data-aos="fade-up" data-aos-delay="400">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 position-absolute top-0 start-0">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M21.5002 5H3.50024C3.10242 5 2.72089 5.15804 2.43958 5.43934C2.15828 5.72064 2.00024 6.10218 2.00024 6.5V6.82525L12.5002 13.1255L23.0002 6.82518V6.5C23.0002 6.10218 22.8422 5.72064 22.5609 5.43934C22.2796 5.15804 21.8981 5 21.5002 5ZM0.500244 7.27068C0.499919 7.25793 0.499919 7.24517 0.500244 7.23241V6.5C0.500244 5.70435 0.816315 4.94129 1.37892 4.37868C1.94153 3.81607 2.70459 3.5 3.50024 3.5H21.5002C22.2959 3.5 23.059 3.81607 23.6216 4.37868C24.1842 4.94129 24.5002 5.70435 24.5002 6.5V7.2394V7.2606V18.5C24.5002 19.2956 24.1842 20.0587 23.6216 20.6213C23.059 21.1839 22.2959 21.5 21.5002 21.5H3.50024C2.70459 21.5 1.94153 21.1839 1.37892 20.6213C0.816315 20.0587 0.500244 19.2956 0.500244 18.5V7.27068ZM23.0002 17.194V8.57474L15.7162 12.945L23.0002 17.194ZM22.9461 18.8995L14.3722 13.898L14.2482 13.8257L12.5002 14.8745L10.7519 13.8258L10.6282 13.898L2.05439 18.8994C2.12287 19.1473 2.25456 19.3756 2.43958 19.5607C2.72089 19.842 3.10242 20 3.50024 20H21.5002C21.8981 20 22.2796 19.842 22.5609 19.5607C22.7459 19.3757 22.8776 19.1473 22.9461 18.8995ZM2.00024 17.194V8.57616L9.28386 12.9452L2.00024 17.194Z">
+													</path>
+												</svg>
+												<p class="ps-10 mb-0 fs-4 text-dark-1">
+													ola@humanicare.com.br
+												</p>
+											</div>
+										</div>
+										<div class="col-xl-4 col-md-5 col-sm-9" data-aos="fade-up" data-aos-delay="650">
+											<form action="form-handler.php" method="post" enctype="multipart/form-data" class="js-ajax-form">
+												<!-- forms alerts -->
+													<div class="alert alert-action-8 fixed-top invisible fade js-form-result" data-result="success" role="alert">
+														<span class="js-form-alert-text" data-default-text="Thanks for your message!">
+							Thanks for your message!
+														</span>
+													</div>
+													<div class="alert alert-action-5 fixed-top invisible fade js-form-result" data-result="error" role="alert">
+														<span class="js-form-alert-text">
+							Error!
+														</span>
+													</div>
+													<!-- forms alerts end -->
+														<input type="text" name="name" placeholder="Nome" class="mb-6 form-control border border-dark-3" required="required">
+														<input type="email" name="email" placeholder="Email" class="mb-6 form-control border border-dark-3" required="required">
+														<textarea name="message" placeholder="Mensagem" class="mb-6 form-control border border-dark-3" rows="5" required="required"></textarea>
+														<label class="form-check mb-6">
+															<input class="form-check-input" type="checkbox" name="checkbox" checked="checked">
+															<span class="form-check-label text-dark-1 fs-5">
+																			Aceito os termos de uso
+															</span>
+														</label>
+														<button class="btn btn-action-1 w-100">
+																		Enviar mensagem
+														</button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</section>
+									<!-- Footer 4 -->
+										<footer class="bg-bg-3 pb-md-8 pt-md-10 py-8 text-center">
+											<div class="container">
+												<a href="#" target="_blank" class="mx-3" data-aos="fade-up" data-aos-delay="0">
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
+														<path d="M22.4591 6C21.6891 6.35 20.8591 6.58 19.9991 6.69C20.8791 6.16 21.5591 5.32 21.8791 4.31C21.0491 4.81 20.1291 5.16 19.1591 5.36C18.3691 4.5 17.2591 4 15.9991 4C13.6491 4 11.7291 5.92 11.7291 8.29C11.7291 8.63 11.7691 8.96 11.8391 9.27C8.27906 9.09 5.10906 7.38 2.99906 4.79C2.62906 5.42 2.41906 6.16 2.41906 6.94C2.41906 8.43 3.16906 9.75 4.32906 10.5C3.61906 10.5 2.95906 10.3 2.37906 10V10.03C2.37906 12.11 3.85906 13.85 5.81906 14.24C5.18979 14.4122 4.52916 14.4362 3.88906 14.31C4.16067 15.1625 4.6926 15.9084 5.41008 16.4429C6.12756 16.9775 6.99451 17.2737 7.88906 17.29C6.37269 18.4904 4.49306 19.1393 2.55906 19.13C2.21906 19.13 1.87906 19.11 1.53906 19.07C3.43906 20.29 5.69906 21 8.11906 21C15.9991 21 20.3291 14.46 20.3291 8.79C20.3291 8.6 20.3291 8.42 20.3191 8.23C21.1591 7.63 21.8791 6.87 22.4591 6Z">
+														</path>
+													</svg>
+												</a>
+												<a href="#" target="_blank" class="mx-3" data-aos="fade-up" data-aos-delay="150">
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
+														<path d="M12 2.03906C6.5 2.03906 2 6.52906 2 12.0591C2 17.0591 5.66 21.2091 10.44 21.9591V14.9591H7.9V12.0591H10.44V9.84906C10.44 7.33906 11.93 5.95906 14.22 5.95906C15.31 5.95906 16.45 6.14906 16.45 6.14906V8.61906H15.19C13.95 8.61906 13.56 9.38906 13.56 10.1791V12.0591H16.34L15.89 14.9591H13.56V21.9591C15.9164 21.5869 18.0622 20.3846 19.6099 18.5691C21.1576 16.7537 22.0054 14.4447 22 12.0591C22 6.52906 17.5 2.03906 12 2.03906Z">
+														</path>
+													</svg>
+												</a>
+												<a href="#" target="_blank" class="mx-3" data-aos="fade-up" data-aos-delay="250">
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-1">
+														<path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z">
+														</path>
+													</svg>
+												</a>
+												<div class="mt-10 mb-8 border-bottom border-dark-3" data-aos="fade-up" data-aos-delay="400">
+												</div>
+												<p class="fs-5 mb-0" data-aos="fade-up" data-aos-delay="500">
+																auta - Plano de saúde empresarial
+												</p>
+											</div>
+										</footer>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		
+		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+		<script src="js/scripts.min.js"></script>
+
+	</body>
+</html>
