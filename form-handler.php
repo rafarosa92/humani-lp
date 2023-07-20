@@ -8,11 +8,11 @@ error_reporting(E_ALL & ~E_NOTICE);
 // URL of this file using https
 $scriptUrl = "https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"]; // used for Viber integration only
 // Email "subject"
-$title = 'New message from my Landing page';
+$title = 'Nova mensagem da landing page humani';
 // Email field "From" - name of sender (e.g. your first & last name)
-$from_name = "Designmodo leads notifier";
-// Email field "From" - email of sender (e.g. "robot@domain.com")
-$from_email = "robot@domain.com";
+$from_name = "lead site humani";
+// Email field "From" - email of sender (e.g. "robot@humani.com.br")
+$from_email = "robot@humani.com.br";
 // Email to receive message - PUT YOUR EMAIL HERE (or leave it blank if you won't receive emails)
 $to = ""; // e.g. my@email.com"
 // Telegram integration: token of created bot
