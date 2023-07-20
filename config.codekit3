@@ -126,58 +126,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/i\/logo-dark.png" : {
-      "ft" : 32768,
-      "iS" : 795,
-      "oA" : 0,
-      "oAP" : "\/i\/logo-dark.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/i\/logo-dark@2x.png" : {
-      "ft" : 32768,
-      "iS" : 1386,
-      "oA" : 0,
-      "oAP" : "\/i\/logo-dark@2x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/i\/logo-humani-header.png" : {
-      "ft" : 32768,
-      "iS" : 1639,
-      "oA" : 0,
-      "oAP" : "\/i\/logo-humani-header.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/i\/logo-humani-header@2x.png" : {
-      "ft" : 32768,
-      "iS" : 3022,
-      "oA" : 0,
-      "oAP" : "\/i\/logo-humani-header@2x.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/i\/logo-humani.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -196,7 +144,7 @@
       "oAP" : "\/i\/og-image-humani.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
