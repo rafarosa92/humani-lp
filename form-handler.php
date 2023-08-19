@@ -1,6 +1,6 @@
 <?php
 $title = 'Nova mensagem da landing page humani';
-$from_email = "contato@humani.com.br,marcus.gimenes@humani.com.br,rafael@sidedoor.com.br";
+$from_email = "rafael@sidedoor.com.br";
 $headers = "Content-Type: text/html; charset=UTF-8\r\n";
 $headers .= "From: " . $from_email;
 
